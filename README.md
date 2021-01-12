@@ -25,9 +25,9 @@ The [Puzzle Society](https://www.puzzlesociety.com/about-us) is a community for 
 
 * Most of the larger coefficients look more specific to crosswords than to sudoku. New York Times crosswords are the most popular brand of crosswords, so using the 'nyt' in the crossword subreddit is expectedly common. Crosswords have themes, obviously a lot of words, and clues, whereas sudoku does not tend to possess any of those things.  
 
-* Most of the words with small coefficients fit better to what sudoku is all about. Sudoku is analytical and numbers-heavy, so the presence of a word like 'logic' makes sense. 'Cracking' stems from 'cracking the code,' which brings a numerical puzzle like sudoku to mind before a crossword. 'Technique' and 'strategy' are talked about more in sudoku -- crosswords has a few strategies, but crossword success has to do less with a strategy/technique than simply having an advanced vocabulary.
+* Most of the words with small coefficients fit better to what sudoku is all about. Sudoku is analytical and numbers-heavy, so the presence of a word like 'logic' makes sense. 'Cracking' stems from 'cracking the code,' which brings a numerical puzzle like sudoku to mind before a crossword. 'Technique' and 'strategy' are talked about more in sudoku -- crosswords have a few strategies, but crossword success has to do less with a strategy/technique than simply having an advanced vocabulary.
 
 #### Recommendation:
-Logistic Regression models should be used in favor of Naive Bayes and Support Vector Classifier when wanting to learn more about crossword and sudoku audiences, since the feature coefficients they produce are interpretable.
+Logistic Regression models should be used in favor of Naive Bayes and Support Vector Classifiers when wanting to learn more about crossword and sudoku audiences, since the feature coefficients they produce are interpretable.
 
 The Puzzle Society should post promotions for membership in the sudoku and crossword subreddits, taking care to incorporate the keywords and themes with the highest and lowest correlations found from the Logistic Regression models in order to raise its membership. If The Puzzle Society leverages the same keywords often used by puzzle fans themselves, it should be more likely to attract those fans to join the community.
